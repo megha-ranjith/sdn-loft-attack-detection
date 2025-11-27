@@ -10,7 +10,7 @@ This project is a **simple simulation-based prototype** for detecting and mitiga
 - Simulates an SDN switch flow table with limited capacity.
 - Generates both **normal** and **attack** flows (LOFT-style low-rate, short-duration flows).
 - Extracts basic flow features (packet count, bytes, duration, ports, protocol).
-- Trains a **Random Forest classifier** to label flows as `normal` or `attack`.
+- Trains a **Random Forest classifier** to label flows as `normal` or `attack`. 
 - Periodically scans the flow table, detects malicious entries, and **removes them in real time**.
 - Prints a final detection report with accuracy and flow table occupancy.
 
